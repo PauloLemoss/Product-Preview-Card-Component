@@ -1,0 +1,95 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    width: 50%;
+    border-radius: 10px;
+    height: auto;
+   
+    
+}
+
+
+main .image .image-perfume {
+    width: 90%;
+    border-radius: 10px;
+    height: 100%;
+ 
+}
+
+main .information-perfume {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 45px;
+}
+
+main .information-perfume .sub-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    margin-top: -80px;
+    padding: 10px;
+}
+
+main .information-perfume .title {
+    font-family: "Fraunces", serif;
+    font-size: 36px;
+    padding: 15px;
+}
+
+main .information-perfume .discription-perfume {
+    font-family: 'Playfair Display', serif;
+    line-height: 22px;
+    padding: 15px;
+}
+
+
+main .information-perfume .price-container {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+main .information-perfume .information-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    margin: 0;
+}
+
+main .information-perfume .real-price {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: 18px; 
+    margin: 0;
+    padding-left: 15px;
+}
+
+main .button {
+    border-radius: 5px;
+    width: 80%;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+main .button:hover {
+    background-color: #013220;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+
+    
+}

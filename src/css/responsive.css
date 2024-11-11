@@ -1,0 +1,98 @@
+@media(max-width: 768px) {
+    main {
+        flex-direction: column;
+        width: 90%; 
+    }
+    
+    main .image .image-perfume {
+        max-width: 100%; 
+        margin-top: 0; 
+        height: auto;
+         padding-left: 20px;
+         padding-top: 10px;
+         border-radius: 10px;
+        
+    }
+
+
+
+    main .information-perfume {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    
+
+    main .information-perfume .sub-title{
+
+        padding-top: 50px;
+    }
+
+    main .information-perfume .title{
+        font-size: 26px;
+    }
+}
+
+
+@media (min-width: 820px) and (max-width: 1280px) {
+
+    main{
+        flex-direction: column;
+        width: 70%;
+        
+    }
+
+    main .image .image-perfume{
+        max-width: 100%;
+        margin-top: 0;
+        height: auto;
+        
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    main .information-perfume {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    main .information-perfume .sub-title{
+        font-size: 26px;
+        padding-top: 60px;
+    }
+
+
+    main .information-perfume .title{
+         font-size: 48px;
+     }
+
+     main .information-perfume .discription-perfume{
+        font-size: 30px;
+        line-height: 36px;
+     }
+
+     main .price-container .information-price{
+        font-size: 48px;
+        
+     }
+
+     main .price-container .real-price{
+        font-size: 30px;
+     }
+
+     main .information-perfume .button{
+        padding: 20px;
+        font-size: 30px;
+        border-radius: 10px;
+     }
+
+     main .information-perfume .button .image-button{
+        width: 8%;
+        padding: 10px;
+      
+     }
+
+
+
+}
+
